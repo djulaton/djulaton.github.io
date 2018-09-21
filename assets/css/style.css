@@ -1,7 +1,11 @@
-
 .jumbotron {
   background-image: url('../images/code-background.png');
   height: 500px;
+}
+
+#portfolio:hover {
+  -webkit-animation: bounce 1s;
+  animation: bounce 1s;
 }
 
 .img-circle {
@@ -190,7 +194,7 @@
   }
   
   .floating-label-form-group-with-focus label {
-    color: rgb(188, 24, 106);
+    color: #18BC9C;
   }
   
   form .row:first-child .floating-label-form-group {
